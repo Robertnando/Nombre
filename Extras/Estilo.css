@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: #cc1436;
+    color: white;
+    padding: 20px;
+    border-bottom-style: outset;
+    border-bottom-color: pink;
+}
+
+body{
+    background:  linear-gradient(to right,darkred,purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Text{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    display: flex;
+    margin: 20px;
+    background-color: #f26b7a;
+    border-style: groove;
+    border-color: #ab2270;
+    border-width: 10px;
+
+}
+ 
+img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-style: inset;
+    border-color: yellow;
+    border: 5px;
+
+}
+
+.Return{
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    margin: 10px;
+    background-color: #f26b7a;
+    border-style: inset;
+    border-color: #ab2270;
+    border-width: 10px;
+
+}

@@ -1,0 +1,78 @@
+body{
+    background-color: magenta;
+    color: black;
+    font-family: "georgia", georgia, serif;
+    padding: 1rem;
+    margin: 0;
+}
+nav ul{
+    background-color: aqua;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    font-family: "georgia", georgia, serif;
+}
+.wrapper{
+    width: 100%;
+    max-width: 800px;
+}
+div{
+    display: block;
+}
+.header{
+    display: flex;
+    font-size: 36px;
+    background: #efbce7;
+    margin-top: 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.welcome{
+    flex-grow: 1;
+    max-width: 80%;
+    object-fit: contain;
+}
+main{
+    display: block;
+}
+.post{
+    background: #efbce7;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.post-emoter{
+    margin-top: 2rem;
+    padding: 0.5rem 0;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    
+}
+.comments-footer{
+    text-align: center;
+    margin-top: 0.75rem;
+    
+}
+.comments-footer a{
+    color: #3832f0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+.comments-footer a.disabled{
+    cursor: not-allowed;
+    color: #555;
+
+}
+.images{
+    display: flexbox;
+    padding: 1rem;
+    
+}

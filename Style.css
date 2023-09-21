@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+h1{
+    text-align: center;
+    background-color: crimson;
+    color: papayawhip;
+    border-color: gold;
+    padding: 25px;
+    font-size: 40px;
+    font-style: comic;
+}
+body{
+    background-color: darkred;
+    border: 2px;
+    border-color: purple;
+}
+
+
+.Introduction{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    display: flex;
+    margin: 60px;
+    background-color: #f26b7a;
+    border-style: groove;
+    border-color: #ab2270;
+    border-radius: 10%;
+    border-width: 5px;
+    
+}
+.Hyperlink{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 20px;
+    border-style: groove;
+    border-width: 5px;
+    block-size: 70px;
+    overflow: auto;
+    background-color: #f26b7a;
+    border-color: #ab2270;
+}
+.Lista{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    margin: 10px;
+    background-color: #f26b7a;
+    border-color: #ab2270;
+    border-radius: 10%;
+    border-width: 20px;
+
+}
+.Last{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    border-style: dotted;
+    border-width: 10px;
+    block-size: 40px;
+    overflow: auto;
+    background-color: #f26b7a;
+    border-color: #ab2270;
+
+}
