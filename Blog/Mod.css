@@ -11,6 +11,8 @@ nav ul{
     list-style-type: none;
     text-align: center;
     font-family: "georgia", georgia, serif;
+    justify-content: center;
+    align-items: center;
 }
 .wrapper{
     width: 100%;
@@ -71,8 +73,22 @@ p{
     color: #555;
 
 }
-.images{
+.Images_text{
     display: flexbox;
+    text-align: center;
     padding: 1rem;
     
+}
+#Images{
+    width: 100%;
+    max-width: 800px;
+    background-color: #efbce7;
+}
+.Images{
+    display:flex;
+    justify-content: center;
+
+}
+.Images_text p{
+    text-align: justify;
 }
